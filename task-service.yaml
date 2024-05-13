@@ -9,7 +9,7 @@ spring:
     platform: postgres
     url: jdbc:postgresql://database:5432/trello
     username: postgres
-    password: {cipher}f5b9324cec14e1296dd6c8b47a5693dbdb7c75d42b49ef6eb0dbf9668e6ab259
+    password: '{cipher}f5b9324cec14e1296dd6c8b47a5693dbdb7c75d42b49ef6eb0dbf9668e6ab259'
 
 server:
   port: 8080
